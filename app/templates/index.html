@@ -50,8 +50,8 @@
       <div class="form-container sign-in-container">
         <form action="predictiontwo" method="POST" enctype="multipart/form-data">
           <h1>Key in your details</h1>
-          <input type="number" placeholder="Height in cm" name="height" required />
-          <input type="number"placeholder="weight in kgs" name="weight" required />
+          <input type="number" placeholder="Height in cm" name="height" required min="100" />
+          <input type="number"placeholder="weight in kgs" name="weight" required min="20" />
           <input type="radio" id="gender" name="gender" value="0" required> <label for="html">Male</label>
           <input type="radio" id="gender" name="gender" value="1" required> <label for="html">Female</label><br>
           
